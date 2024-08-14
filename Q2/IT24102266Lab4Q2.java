@@ -9,12 +9,12 @@ public class IT24102266Lab4Q2
    
    Scanner tot = new Scanner (System.in);
    
-   System.out.print("Please enter exam marks (out of 100) :");
+   System.out.println("Please enter exam marks (out of 100) :");
    exam_marks = tot.nextDouble();
   
    if(exam_marks< 0 || exam_marks >100)
   
-       System.out.print("Invalied input for exam marks. ");
+       System.out.println("Invalied input for exam marks. ");
        
 
    
